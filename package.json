@@ -5,6 +5,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "gh-start": "react-scripts start",
+  "build": "react-scripts build",
     "test": "jest",
     "client-dev": "parcel public/index.html --open",
     "server-dev": "nodemon server.js",
