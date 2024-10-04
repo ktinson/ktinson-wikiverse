@@ -1,7 +1,10 @@
 {
   "name": "wikiverse",
   "version": "2.0.1",
+  "homepage": "https://ktinson.github.io/ktinson-wikiverse/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "jest",
     "client-dev": "parcel public/index.html --open",
     "server-dev": "nodemon server.js",
