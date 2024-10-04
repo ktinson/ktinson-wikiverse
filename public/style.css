@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  /* background-color: rgb(225, 233, 254); */
+}
+
+main {
+  padding: 1rem;
+  height: 100vh;
+}
+.mainView{
+  border-top: 2px solid #222222;
+  
+}
+.wikiHeader{
+  padding-bottom: 25px;
+}
+.delete:hover{
+  color: rgb(254, 253, 253);
+  background-color: red;
+}
+.pageNav:hover{
+  color: rgb(254, 253, 253);
+  background-color: rgb(68, 0, 255);
+}
+.addArtGreen:hover{
+  color: rgb(254, 253, 253);
+  background-color: rgb(0, 190, 35);
+}
+.addSearch:hover{
+  color: rgb(254, 253, 253);
+  background-color: rgb(68, 0, 255);
+  border-radius: 15px;
+}
+.pageDetails{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.wikiMainPage:hover{
+  color: aliceblue;
+  background-color: rgb(85, 0, 190);
+}
+.mainPContent{
+  border-top: 1px solid #222222;
+  border-bottom: 1px solid #222222;
+  padding: 50px;
+}
